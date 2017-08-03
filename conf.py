@@ -363,7 +363,7 @@ POSTS_SECTIONS_ARE_INDEXES = True
 # output / TRANSLATION[lang] / TAG_PATH / tag.html (list of posts for a tag)
 # output / TRANSLATION[lang] / TAG_PATH / tag.xml (RSS feed for a tag)
 # (translatable)
-# TAG_PATH = "categories"
+TAG_PATH = "categories"
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
 # here any path relative to the output directory.
@@ -456,7 +456,7 @@ ENABLE_AUTHOR_PAGES = True
 # output / TRANSLATION[lang] / AUTHOR_PATH / index.html (list of tags)
 # output / TRANSLATION[lang] / AUTHOR_PATH / author.html (list of posts for a tag)
 # output / TRANSLATION[lang] / AUTHOR_PATH / author.xml (RSS feed for a tag)
-# AUTHOR_PATH = "authors"
+AUTHOR_PATH = "authors"
 
 # If AUTHOR_PAGES_ARE_INDEXES is set to True, each author's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
@@ -532,11 +532,11 @@ USE_BASE_TAG = False
 
 # Slug the Tag URL. Easier for users to type, special characters are
 # often removed or replaced as well.
-# SLUG_TAG_PATH = True
+SLUG_TAG_PATH = True
 
 # Slug the Author URL. Easier for users to type, special characters are
 # often removed or replaced as well.
-# SLUG_AUTHOR_PATH = True
+SLUG_AUTHOR_PATH = True
 
 # A list of redirection tuples, [("foo/from.html", "/bar/to.html")].
 #
