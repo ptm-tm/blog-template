@@ -17,16 +17,16 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Your Name"  # (translatable)
-BLOG_TITLE = "Demo Site"  # (translatable)
+BLOG_AUTHOR = "[PTM]"  # (translatable)
+BLOG_TITLE = "MegaHardLab"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://example.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
-BLOG_EMAIL = "joe@demo.site"
-BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
+BLOG_EMAIL = "ptm-tm@protonmail.com"
+BLOG_DESCRIPTION = "Blog about everything"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -90,7 +90,7 @@ DEFAULT_LANG = "en"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    DEFAULT_LANG: "",
+    DEFAULT_LANG: "en": "./en", "ru": "./ru",
     # Example for another language:
     # "es": "./es",
 }
@@ -281,7 +281,8 @@ COMPILERS = {
 # If this is set to False, then posts that are not translated to a language
 # LANG will not be visible at all in the pages in that language.
 # Formerly known as HIDE_UNTRANSLATED_POSTS (inverse)
-# SHOW_UNTRANSLATED_POSTS = True
+
+SHOW_UNTRANSLATED_POSTS = True
 
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
@@ -302,7 +303,7 @@ POSTS_SECTIONS = True
 
 # Setting this to False generates a list page instead of an index. Indexes
 # are the default and will apply GENERATE_ATOM if set.
-# POSTS_SECTIONS_ARE_INDEXES = True
+POSTS_SECTIONS_ARE_INDEXES = True
 
 # Each post and section page will have an associated color that can be used
 # to style them with a recognizable color detail across your site. A color
@@ -601,12 +602,12 @@ GITHUB_COMMIT_SOURCE = True
 # Many filters are shipped with Nikola. A list is available in the manual:
 # <https://getnikola.com/handbook.html#post-processing-filters>
 #
-# from nikola import filters
-# FILTERS = {
-#    ".html": [filters.typogrify],
-#    ".js": [filters.closure_compiler],
-#    ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
-# }
+from nikola import filters
+FILTERS = {
+   ".html": [filters.typogrify],
+   ".js": [filters.closure_compiler],
+   ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
+}
 
 # Expert setting! Create a gzipped copy of each generated file. Cheap server-
 # side optimization for very high traffic sites or low memory servers.
@@ -873,7 +874,7 @@ COMMENT_SYSTEM = "disqus"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = "nikolademo"
+COMMENT_SYSTEM_ID = "megahardlab"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
