@@ -1,9 +1,9 @@
 <!--
 .. title: Добро пожаловать
-.. slug: welcome_rus
+.. slug: welcome_ru
 .. date: 2016-08-29 15:29:40 UTC
-.. tags: welcome
-.. category: welcome
+.. tags: welcome_ru
+.. category: welcome_ru
 .. link: 
 .. description: 
 .. type: text
