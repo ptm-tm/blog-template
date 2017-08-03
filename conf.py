@@ -21,10 +21,10 @@ BLOG_AUTHOR = "[PTM]"  # (translatable)
 BLOG_TITLE = "MegaHardLab"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "http://poet-neville-27070.netlify.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://example.com/"
+BASE_URL = "http://poet-neville-27070.netlify.com/en/"
 BLOG_EMAIL = "ptm-tm@protonmail.com"
 BLOG_DESCRIPTION = {"en":"Blog about everything.", "ru":"Блог обо всём."}  # (translatable)
 
