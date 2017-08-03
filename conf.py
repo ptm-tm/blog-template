@@ -138,6 +138,11 @@ NAVIGATION_LINKS = {
         ("/categories/index.html", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
+    "ru": (        
+        ("/archive.html", "Ар}{ив"),
+        ("/categories/index.html", "Категории"),
+        ("/rss.xml", "RSS лента"),
+    ),
 }
 
 # Name of the theme to use.
