@@ -26,7 +26,7 @@ SITE_URL = "https://example.com/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "ptm-tm@protonmail.com"
-BLOG_DESCRIPTION = "Blog about everything"  # (translatable)
+BLOG_DESCRIPTION = {"en":"Blog about everything.", "ru":"Блог обо всём."}  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -90,7 +90,9 @@ DEFAULT_LANG = "en"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    DEFAULT_LANG: "ru": "./ru",
+    DEFAULT_LANG: "./en",
+    "ru": "./ru",
+    
     # Example for another language:
     # "es": "./es",
 }
