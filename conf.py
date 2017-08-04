@@ -366,7 +366,7 @@ POSTS_SECTIONS_ARE_INDEXES = True
 # TAG_PATH = "categories"
 TAG_PATH = {
     DEFAULT_LANG: "categories",
-    "ru" : "categories_ru",
+    "ru" : "categories",
 }
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
