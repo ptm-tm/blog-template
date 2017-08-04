@@ -155,6 +155,7 @@ THEME = "bootstrap3"
 THEME_COLOR = '#5670d4'
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
+# (translatable)
 #
 # The wildcard is used to generate a list of source files
 # (whatever/thing.rst, for example).
@@ -180,18 +181,30 @@ THEME_COLOR = '#5670d4'
 # to feeds, indexes, tag lists and archives and are considered part
 # of a blog, while PAGES are just independent HTML pages.
 #
-
+# Finally, note that destination can be translated, i.e. you can
+# specify a different translation folder per language. Example:
+#     PAGES = (
+#         ("pages/*.rst", {"en": "pages", "de": "seiten"}, "page.tmpl"),
+#         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
+#     )
 POSTS = (
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.rst", {"en": "posts", "ru": "posts_ru"}, "page.tmpl"),
+    ("posts/*.md", {"en": "posts", "ru": "posts_ru"}, "page.tmpl"),
+    ("posts/*.txt", {"en": "posts", "ru": "posts_ru"}, "page.tmpl"),
+    ("posts/*.html", {"en": "posts", "ru": "posts_ru"}, "page.tmpl"),
 )
+
+# POSTS = (
+#     ("posts/*.rst", "posts", "post.tmpl"),
+#     ("posts/*.md", "posts", "post.tmpl"),
+#     ("posts/*.txt", "posts", "post.tmpl"),
+#     ("posts/*.html", "posts", "post.tmpl"),
+# )
 PAGES = (
-    ("stories/*.md", "stories", "story.tmpl"),
-    ("stories/*.rst", "stories", "story.tmpl"),
-    ("stories/*.txt", "stories", "story.tmpl"),
-    ("stories/*.html", "stories", "story.tmpl"),
+    ("pages/*.rst", "pages", "page.tmpl"),
+    ("pages/*.md", "pages", "page.tmpl"),
+    ("pages/*.txt", "pages", "page.tmpl"),
+    ("pages/*.html", "pages", "page.tmpl"),
 )
 
 
