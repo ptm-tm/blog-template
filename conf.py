@@ -84,7 +84,7 @@ BLOG_DESCRIPTION = {"en":"Blog about everything.", "ru":"Блог обо всё�
 # in the default language will be shown instead.
 
 # What is the default language?
-DEFAULT_LANG = "en"
+DEFAULT_LANG = "ru"
 
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
