@@ -366,7 +366,7 @@ POSTS_SECTIONS_ARE_INDEXES = True
 # TAG_PATH = "categories"
 TAG_PATH = {
     DEFAULT_LANG: "categories",
-    "ru" : "categories",
+    "ru" : "categories_ru",
 }
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
@@ -413,6 +413,11 @@ HIDDEN_TAGS = ['mathjax']
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.xml (RSS feed for a category)
 # (translatable)
 # CATEGORY_PATH = "categories"
+CATEGORY_PATH = {
+    DEFAULT_LANG: "categories",
+    "ru" : "categories_ru",
+}
+
 # CATEGORY_PREFIX = "cat_"
 
 # If CATEGORY_ALLOW_HIERARCHIES is set to True, categories can be organized in
