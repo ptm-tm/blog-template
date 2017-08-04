@@ -625,7 +625,7 @@ GITHUB_COMMIT_SOURCE = True
 from nikola import filters
 FILTERS = {
    ".html": [filters.typogrify],
-   ".js": [filters.closure_compiler],
+#   ".js": [filters.closure_compiler],
    ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
 }
 
