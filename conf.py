@@ -139,9 +139,9 @@ NAVIGATION_LINKS = {
         ("/rss.xml", "RSS feed"),
     ),
     "ru": (        
-        ("./ru/archive_ru.html", "Ар}{ив"),
-        ("./ru/categories_ru/index.html", "Категории"),
-        ("./ru/rss_ru.xml", "RSS лента"),
+        ("./archive_ru.html", "Ар}{ив"),
+        ("./categories_ru/index.html", "Категории"),
+        ("./rss_ru.xml", "RSS лента"),
     ),
 }
 
