@@ -84,7 +84,7 @@ BLOG_DESCRIPTION = {"en":"Blog about everything.", "ru":"Блог обо всё�
 # in the default language will be shown instead.
 
 # What is the default language?
-DEFAULT_LANG = "ru"
+DEFAULT_LANG = "en"
 
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
@@ -140,10 +140,10 @@ NAVIGATION_LINKS = {
         ("/rss.xml", "RSS feed"),
     ),
     "ru": (        
-        ("./archive_ru.html", "Ар}{ив"),
-        ("./categories_ru/index.html", "Категории"),
-        ("./tags_ru/index.html", "Метки"),
-        ("./rss_ru.xml", "RSS лента"),
+        ("/archive_ru.html", "Ар}{ив"),
+        ("/categories_ru/index.html", "Категории"),
+        ("/tags_ru/index.html", "Метки"),
+        ("/rss_ru.xml", "RSS лента"),
     ),
 }
 
@@ -381,7 +381,7 @@ POSTS_SECTIONS_ARE_INDEXES = True
 # TAG_PATH = "categories"
 TAG_PATH = {
     DEFAULT_LANG: "tags",
-    "ru" : "./ru/tags_ru",
+    "ru" : "tags_ru",
 }
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
