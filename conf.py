@@ -368,7 +368,7 @@ POSTS_SECTIONS_ARE_INDEXES = True
 # TAG_PATH = "categories"
 TAG_PATH = {
     DEFAULT_LANG: "tags",
-    "ru" : "tags_ru",
+    "ru" : "./tags_ru",
 }
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
@@ -417,7 +417,7 @@ HIDDEN_TAGS = ['mathjax']
 # CATEGORY_PATH = "categories"
 CATEGORY_PATH = {
     DEFAULT_LANG: "categories",
-    "ru" : "categories_ru",
+    "ru" : "./categories_ru",
 }
 
 # CATEGORY_PREFIX = "cat_"
@@ -541,7 +541,7 @@ USE_BASE_TAG = False
 # output / TRANSLATION[lang] / RSS_PATH / rss.xml
 RSS_PATH = {
     DEFAULT_LANG: "rss",
-    "ru" : "rss_ru",
+    "ru" : "./rss_ru",
 }
 # Slug the Tag URL. Easier for users to type, special characters are
 # often removed or replaced as well.
