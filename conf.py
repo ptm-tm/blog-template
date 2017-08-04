@@ -139,9 +139,9 @@ NAVIGATION_LINKS = {
         ("/rss.xml", "RSS feed"),
     ),
     "ru": (        
-        ("/archive.html", "Ар}{ив"),
-        ("/categories/index.html", "Категории"),
-        ("/rss.xml", "RSS лента"),
+        ("/archive_ru.html", "Ар}{ив"),
+        ("/categories_ru/index.html", "Категории"),
+        ("/rss_ru.xml", "RSS лента"),
     ),
 }
 
@@ -366,7 +366,7 @@ POSTS_SECTIONS_ARE_INDEXES = True
 # TAG_PATH = "categories"
 TAG_PATH = {
     DEFAULT_LANG: "categories",
-    "ru" : "категории",
+    "ru" : "categories_ru",
 }
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
