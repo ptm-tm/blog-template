@@ -135,12 +135,14 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archives"),
-        ("/categories/index.html", "Tags"),
+        ("/categories/index.html", "Categories"),
+        ("/tags/index.html", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
     "ru": (        
         ("./archive_ru.html", "Ар}{ив"),
         ("./categories_ru/index.html", "Категории"),
+        ("./tags_ru/index.html", "Метки"),
         ("./rss_ru.xml", "RSS лента"),
     ),
 }
@@ -365,8 +367,8 @@ POSTS_SECTIONS_ARE_INDEXES = True
 # (translatable)
 # TAG_PATH = "categories"
 TAG_PATH = {
-    DEFAULT_LANG: "categories",
-    "ru" : "categories_ru",
+    DEFAULT_LANG: "tags",
+    "ru" : "tags_ru",
 }
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
@@ -621,7 +623,7 @@ GITHUB_COMMIT_SOURCE = True
 from nikola import filters
 FILTERS = {
    ".html": [filters.typogrify],
-#   ".js": [filters.closure_compiler],
+   ".js": [filters.closure_compiler],
    ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
 }
 
