@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-
 from __future__ import unicode_literals
+from nikola import filters
 import time
 
 # !! This is the configuration of Nikola. !! #
@@ -24,9 +24,9 @@ BLOG_TITLE = "MegaHardLab"  # (translatable)
 SITE_URL = "http://poet-neville-27070.netlify.com/en/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-BASE_URL = "http://poet-neville-27070.netlify.com/"
+# BASE_URL = "http://poet-neville-27070.netlify.com/"
 BLOG_EMAIL = "ptm-tm@protonmail.com"
-BLOG_DESCRIPTION = {"en":"Blog about everything.", "ru":"Блог обо всём."}  # (translatable)
+BLOG_DESCRIPTION = {"en":"A blog about everything and nothing.", "ru":"Блог обо всём и ни о чём."}  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -85,7 +85,8 @@ BLOG_DESCRIPTION = {"en":"Blog about everything.", "ru":"Блог обо всё�
 
 # What is the default language?
 DEFAULT_LANG = "en"
-
+LOCALE_DEFAULT = 'en_GB.UTF-8'
+FORCE_ISO8601 = True
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
