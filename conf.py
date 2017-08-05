@@ -188,10 +188,16 @@ THEME_COLOR = '#5670d4'
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 POSTS = (
-    ("posts/*.rst", {"en": "posts", "ru": "posts_ru"}, "page.tmpl"),
-    ("posts/*.md", {"en": "posts", "ru": "posts_ru"}, "page.tmpl"),
-    ("posts/*.txt", {"en": "posts", "ru": "posts_ru"}, "page.tmpl"),
-    ("posts/*.html", {"en": "posts", "ru": "posts_ru"}, "page.tmpl"),
+    ("posts/*.rst", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
+    ("posts/*.md", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
+    ("posts/*.txt", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
+    ("posts/*.html", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
+)
+PAGES = (
+    ("pages/*.rst", {"en": "pages", "ru": "pages_ru"}, "page.tmpl"),
+    ("pages/*.md", {"en": "pages", "ru": "pages_ru"}, "page.tmpl"),
+    ("pages/*.txt", {"en": "pages", "ru": "pages_ru"}, "page.tmpl"),
+    ("pages/*.html", {"en": "pages", "ru": "pages_ru"}, "page.tmpl"),
 )
 
 # POSTS = (
@@ -200,12 +206,12 @@ POSTS = (
 #     ("posts/*.txt", "posts", "post.tmpl"),
 #     ("posts/*.html", "posts", "post.tmpl"),
 # )
-PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
-)
+# PAGES = (
+#     ("pages/*.rst", "pages", "page.tmpl"),
+#     ("pages/*.md", "pages", "page.tmpl"),
+#     ("pages/*.txt", "pages", "page.tmpl"),
+#     ("pages/*.html", "pages", "page.tmpl"),
+# )
 
 
 # Below this point, everything is optional
