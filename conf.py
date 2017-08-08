@@ -85,13 +85,11 @@ BLOG_DESCRIPTION = {"en":"A blog about everything and nothing.", "ru":"Блог 
 
 # What is the default language?
 DEFAULT_LANG = "en"
-LOCALE_DEFAULT = 'en_GB.UTF-8'
-FORCE_ISO8601 = True
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    DEFAULT_LANG: "",
+    DEFAULT_LANG: "en",
     "ru": "./ru",
     
     # Example for another language:
@@ -138,12 +136,15 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archives"),
         ("/categories/index.html", "Categories"),
         ("/tags/index.html", "Tags"),
+        ("/authors/index.html", "Authors"),
         ("/rss.xml", "RSS feed"),
+        authors
     ),
     "ru": (        
-        ("/ru/archive_ru.html", "Ар}{ив"),
+        ("/ru/archive.html", "Ар}{ив"),
         ("/ru/categories_ru/index.html", "Категории"),
         ("/ru/tags_ru/index.html", "Метки"),
+        ("/ru/authors/index.html", "Авторы"),
         ("/ru/rss_ru.xml", "RSS лента"),
     ),
 }
