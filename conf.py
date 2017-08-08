@@ -21,7 +21,7 @@ BLOG_AUTHOR = "[PTM]"  # (translatable)
 BLOG_TITLE = "MegaHardLab"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://poet-neville-27070.netlify.com/en/"
+SITE_URL = "http://poet-neville-27070.netlify.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://poet-neville-27070.netlify.com/"
@@ -133,11 +133,11 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archives"),
-        ("/categories/index.html", "Categories"),
-        ("/tags/index.html", "Tags"),
-        ("/authors/index.html", "Authors"),
-        ("/rss.xml", "RSS feed"),
+        ("/en/archive.html", "Archives"),
+        ("/en/categories/index.html", "Categories"),
+        ("/en/tags/index.html", "Tags"),
+        ("/en/authors/index.html", "Authors"),
+        ("/en/rss.xml", "RSS feed"),
 
     ),
     "ru": (        
