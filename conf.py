@@ -497,12 +497,12 @@ AUTHOR_PATH = "authors"
 # Set descriptions for author pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the author list or index page’s title.
-# AUTHOR_PAGES_DESCRIPTIONS = {
-#    DEFAULT_LANG: {
-#        "Juanjo Conti": "Python coder and writer.",
-#        "Roberto Alsina": "Nikola father."
-#    },
-# }
+AUTHOR_PAGES_DESCRIPTIONS = {
+   DEFAULT_LANG: {
+       "PTM": "crazy engineer",
+       "SSDD": "test user"
+   },
+}
 
 
 # If you do not want to display an author publicly, you can mark it as hidden.
