@@ -136,15 +136,15 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archives"),
         ("/categories/index.html", "Categories"),
         ("/tags/index.html", "Tags"),
-#         ("/authors/index.html", "Authors"),
+        ("/authors/index.html", "Authors"),
         ("/rss.xml", "RSS feed"),
-        authors
+
     ),
     "ru": (        
         ("/ru/archive.html", "Ар}{ив"),
         ("/ru/categories_ru/index.html", "Категории"),
         ("/ru/tags_ru/index.html", "Метки"),
-#         ("/ru/authors/index.html", "Авторы"),
+        ("/ru/authors/index.html", "Авторы"),
         ("/ru/rss_ru.xml", "RSS лента"),
     ),
 }
