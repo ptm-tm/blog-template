@@ -502,6 +502,10 @@ AUTHOR_PAGES_DESCRIPTIONS = {
        "PTM": "crazy engineer",
        "SSDD": "test user"
    },
+    "ru": {
+        "PTM": "crazy engineer",
+        "SSDD": "test user"
+    },
 }
 
 
@@ -517,7 +521,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
+    DEFAULT_LANG: 'en'
 }
 
 # Create per-month archives instead of per-year
