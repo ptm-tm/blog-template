@@ -7,6 +7,7 @@
 .. link: 
 .. description: 
 .. type: text
+.. author: [PTM]
 -->
 
 Немного о том, почему власть надо менять.  
