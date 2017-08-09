@@ -84,7 +84,7 @@ BLOG_DESCRIPTION = {"en":"A blog about everything and nothing.", "ru":"Блог 
 # in the default language will be shown instead.
 
 # What is the default language?
-DEFAULT_LANG = ""
+DEFAULT_LANG = "en"
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
