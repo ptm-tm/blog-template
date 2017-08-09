@@ -21,7 +21,7 @@ BLOG_AUTHOR = "[PTM]"  # (translatable)
 BLOG_TITLE = "MegaHardLab"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://poet-neville-27070.netlify.com/"
+SITE_URL = "http://mhl.netlify.com"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://poet-neville-27070.netlify.com/"
@@ -1156,7 +1156,7 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-# EXTRA_HEAD_DATA = ""
+EXTRA_HEAD_DATA = "123"
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
