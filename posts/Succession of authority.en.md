@@ -8,9 +8,7 @@
 .. description: 
 .. type: text
 .. author: [SSDD]
--->
-
-EN  
+-->  
 
 Немного о том, почему власть надо менять.  
 
