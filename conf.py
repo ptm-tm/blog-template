@@ -21,12 +21,14 @@ BLOG_AUTHOR = "[PTM]"  # (translatable)
 BLOG_TITLE = "MegaHardLab"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://mhl.netlify.com"
+SITE_URL = "http://mhl.netlify.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://poet-neville-27070.netlify.com/"
+BASE_URL = "http://mhl.netlify.com/"
 BLOG_EMAIL = "ptm-tm@protonmail.com"
-BLOG_DESCRIPTION = {"en":"A blog about everything and nothing.", "ru":"Блог обо всём и ни о чём."}  # (translatable)
+BLOG_DESCRIPTION = {
+    "en":"A blog about everything and nothing.",
+    "ru":"Блог обо всём и ни о чём.",}  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -89,7 +91,7 @@ DEFAULT_LANG = "en"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    DEFAULT_LANG: "en",
+    DEFAULT_LANG: "./en",
     "ru": "./ru",
     
     # Example for another language:
@@ -503,7 +505,7 @@ AUTHOR_PAGES_DESCRIPTIONS = {
        "SSDD": "test user"
    },
     "ru": {
-        "PTM": "crazy engineer",
+        "PTM": "безумный инженер",
         "SSDD": "test user"
     },
 }
@@ -521,7 +523,8 @@ HIDDEN_AUTHORS = ['Guest']
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: 'en'
+    DEFAULT_LANG: "en",
+    "ru":"ru front"
 }
 
 # Create per-month archives instead of per-year
@@ -874,7 +877,17 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = ""
+LICENSE = """
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    <img alt="Лицензия Creative Commons" style="border-width:0" 
+    src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
+    Сайт «<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">MHL</span>» 
+    созданное автором по имени <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">[PTM]</span>,
+    публикуется на условиях <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+    лицензии Creative Commons «Attribution-ShareAlike» («Атрибуция — На тех же условиях») 4.0 Всемирная</a>.<br />
+    Разрешения, выходящие за рамки данной лицензии, 
+    могут быть доступны по адресу
+    <a xmlns:cc="http://creativecommons.org/ns#" href="ptm-tm@protonmail.com" rel="cc:morePermissions">ptm-tm@protonmail.com</a>."""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 # LICENSE = """
@@ -1156,7 +1169,7 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-EXTRA_HEAD_DATA = "123"
+# EXTRA_HEAD_DATA = "123"
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
