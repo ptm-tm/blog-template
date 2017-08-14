@@ -1,7 +1,7 @@
 <!--
 .. title: Succession of authority
 .. slug: politics
-.. date: 2016-08-29 15:29:40 UTC
+.. date: 2016-08-30 15:29:40 UTC
 .. tags: politics, succession of authority
 .. category: politics
 .. link: 
@@ -25,4 +25,4 @@
 и послужить на благо народа.  
 
 Удачного вам выбора и голосований!  
-С уважением, [PTM]  
+С уважением, [SSDD]  
