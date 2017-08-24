@@ -1,7 +1,7 @@
 <!--
 .. title: Succession of authority
 .. slug: politics
-.. date: 2016-08-30 15:29:40 UTC
+.. date: 2016-08-14 10:02:00 UTC
 .. tags: politics, succession of authority
 .. category: politics
 .. link: 
