@@ -722,7 +722,7 @@ PRESERVE_EXIF_DATA = True
 # PRESERVE_EXIF_DATA is set to True
 # To preserve ALL EXIF data, set EXIF_WHITELIST to {"*": "*"}
 
-# EXIF_WHITELIST = {}
+EXIF_WHITELIST = {"*": "*"}
 
 # Some examples of EXIF_WHITELIST settings:
 
