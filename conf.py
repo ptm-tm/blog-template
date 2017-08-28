@@ -140,6 +140,7 @@ NAVIGATION_LINKS = {
         ("/en/tags/index.html", "Tags"),
         ("/en/authors/index.html", "Authors"),
         ("/en/rss.xml", "RSS feed"),
+        ("/en/galleries/index.html", "Galleries"),
 
     ),
     "ru": (        
@@ -148,6 +149,7 @@ NAVIGATION_LINKS = {
         ("/ru/tags_ru/index.html", "Метки"),
         ("/ru/authors/index.html", "Авторы"),
         ("/ru/rss_ru.xml", "RSS лента"),
+        ("/ru/galleries/index.html", "Galleries"),
     ),
 }
 
