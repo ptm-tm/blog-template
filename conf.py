@@ -693,19 +693,19 @@ FILTERS = {
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-# GALLERY_FOLDERS = {"galleries": "galleries"}
+GALLERY_FOLDERS = {"galleries": "galleries"}
 # More gallery options:
-# THUMBNAIL_SIZE = 180
+THUMBNAIL_SIZE = 180
 # MAX_IMAGE_SIZE = 1280
-# USE_FILENAME_AS_TITLE = True
+USE_FILENAME_AS_TITLE = True
 # EXTRA_IMAGE_EXTENSIONS = []
 #
 # If set to False, it will sort by filename instead. Defaults to True
-# GALLERY_SORT_BY_DATE = True
+GALLERY_SORT_BY_DATE = True
 
 # If set to True, EXIF data will be copied when an image is thumbnailed or
 # resized. (See also EXIF_WHITELIST)
-# PRESERVE_EXIF_DATA = False
+PRESERVE_EXIF_DATA = True
 
 # If you have enabled PRESERVE_EXIF_DATA, this option lets you choose EXIF
 # fields you want to keep in images. (See also PRESERVE_EXIF_DATA)
@@ -727,17 +727,17 @@ FILTERS = {
 # Some examples of EXIF_WHITELIST settings:
 
 # Basic image information:
-# EXIF_WHITELIST['0th'] = [
-#    "Orientation",
-#    "XResolution",
-#    "YResolution",
-# ]
+EXIF_WHITELIST['0th'] = [
+   "Orientation",
+   "XResolution",
+   "YResolution",
+]
 
 # If you want to keep GPS data in the images:
-# EXIF_WHITELIST['GPS'] = ["*"]
+EXIF_WHITELIST['GPS'] = ["*"]
 
 # Embedded thumbnail information:
-# EXIF_WHITELIST['1st'] = ["*"]
+EXIF_WHITELIST['1st'] = ["*"]
 
 # Folders containing images to be used in normal posts or pages. Images will be
 # scaled down according to IMAGE_THUMBNAIL_SIZE and MAX_IMAGE_SIZE options, but
@@ -746,7 +746,7 @@ FILTERS = {
 # The format is a dictionary of {source: relative destination}.
 
 IMAGE_FOLDERS = {'images': 'images'}
-# IMAGE_THUMBNAIL_SIZE = 400
+IMAGE_THUMBNAIL_SIZE = 400
 
 # #############################################################################
 # HTML fragments and diverse things that are used by the templates
