@@ -844,7 +844,7 @@ IMAGE_THUMBNAIL_SIZE = 400
 # <link rel="name" href="file" sizes="size"/>
 FAVICONS = (
 #     ("icon", "/favicon.ico", "16x16"),
-    ("icon", "images/agp.png", "128x128"),
+    ("icon", "./images/agp.png", "128x128"),
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
