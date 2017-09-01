@@ -845,7 +845,7 @@ IMAGE_THUMBNAIL_SIZE = 400
 FAVICONS = (
 #     ("icon", "/favicon.ico", "16x16"),
     ("icon", "./images/agp.png", "128x128"),
-# )
+)
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
 # INDEX_TEASERS = False
@@ -863,7 +863,9 @@ FAVICONS = (
 # }}                            A literal } (U+007D RIGHT CURLY BRACKET)
 
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
-#  INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
+
+
+INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
 FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
 
