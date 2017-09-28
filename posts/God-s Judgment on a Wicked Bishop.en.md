@@ -1,7 +1,7 @@
 <!--
 .. title:God-s Judgment on a Wicked Bishop
 .. slug: poetry
-.. date: 2016-09-27 10:02:00 UTC
+.. date: 2016-09-28 10:02:00 UTC
 .. tags: poetry_en
 .. category: poetry_en
 .. link: 
