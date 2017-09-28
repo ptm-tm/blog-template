@@ -1,7 +1,7 @@
 <!--
 .. title:Суд божий над епископом
 .. slug: poetry
-.. date: 2016-09-27 10:02:00 UTC
+.. date: 2016-09-28 10:02:00 UTC
 .. tags: poetry_ru
 .. category: poetry_ru
 .. link: 
