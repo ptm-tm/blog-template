@@ -1,5 +1,5 @@
 <!--
-.. title:God-s Judgment on a Wicked Bishop
+.. title: God-s Judgment on a Wicked Bishop
 .. slug: poetry_en
 .. date: 2016-09-28 10:02:00 UTC
 .. tags: poetry_en
