@@ -9,20 +9,11 @@
 .. type: text
 -->
 
-<!--
-.. slides::
-
-   /ru/galleries/Pavlov/Ivan-Pavlov.png
-   /ru/galleries/Pavlov/ivan-Petroviç-Pavlov.jpg
-   /galleries/Pavlov/pavlov-experiment-dog.jpg
-   /galleries/Pavlov/pavlov.jpg
--->
-
 .. slides::
 
    /galleries/Pavlov/Ivan-Pavlov.png
-   /ru/galleries/Pavlov/ivan-Petroviç-Pavlov.jpg
-   /ru/galleries/Pavlov/pavlov-experiment-dog.jpg
+   /galleries/Pavlov/ivan-Petroviç-Pavlov.jpg
+   /galleries/Pavlov/pavlov-experiment-dog.jpg
    /galleries/Pavlov/pavlov.jpg
 
 Мотив моей лекции — это выполнение одной великой заповеди, завещанной  
