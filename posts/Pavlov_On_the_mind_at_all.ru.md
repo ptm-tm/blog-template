@@ -12,8 +12,8 @@
 <!--
 .. slides::
 
-   /galleries/Pavlov/Ivan-Pavlov.png
-   /galleries/Pavlov/ivan-Petroviç-Pavlov.jpg
+   /ru/galleries/Pavlov/Ivan-Pavlov.png
+   /ru/galleries/Pavlov/ivan-Petroviç-Pavlov.jpg
    /galleries/Pavlov/pavlov-experiment-dog.jpg
    /galleries/Pavlov/pavlov.jpg
 -->
@@ -21,17 +21,9 @@
 .. slides::
 
    /galleries/Pavlov/Ivan-Pavlov.png
-   /galleries/Pavlov/ivan-Petroviç-Pavlov.jpg
-   /galleries/Pavlov/pavlov-experiment-dog.jpg
+   /ru/galleries/Pavlov/ivan-Petroviç-Pavlov.jpg
+   /ru/galleries/Pavlov/pavlov-experiment-dog.jpg
    /galleries/Pavlov/pavlov.jpg
-
-.. slides::
-
-   /galleries/demo/tesla_conducts_lg.jpg
-   /galleries/demo/tesla_lightning2_lg.jpg
-   /galleries/demo/tesla4_lg.jpg
-   /galleries/demo/tesla_lightning1_lg.jpg
-   /galleries/demo/tesla_tower1_lg.jpg
 
 Мотив моей лекции — это выполнение одной великой заповеди, завещанной  
 классическим миром последующему человечеству. Эта заповедь — истинна, как сама  
