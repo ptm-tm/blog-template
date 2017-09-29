@@ -1,6 +1,6 @@
 <!--
 .. title: И.П. Павлов совместно с доктором М.М. Убергрицем: «Рефлекс свободы»
-.. slug: Pavlov
+.. slug: Pavlov_reflex_freedom
 .. date: 2016-09-27 10:02:00 UTC
 .. tags: Наука, Политика
 .. category: politics_ru
