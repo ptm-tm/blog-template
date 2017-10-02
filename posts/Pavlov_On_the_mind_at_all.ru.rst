@@ -9,9 +9,7 @@
 .. type: text
 -->
 
-.. image ::
-
-   /galleries/Pavlov/Ivan-Pavlov.png
+.. image :: /galleries/Pavlov/Ivan-Pavlov.png
 
 
 Мотив моей лекции — это выполнение одной великой заповеди, завещанной
