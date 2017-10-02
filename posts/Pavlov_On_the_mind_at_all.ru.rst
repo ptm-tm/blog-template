@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-.. images ::
+.. image ::
 
    /galleries/Pavlov/Ivan-Pavlov.png
 
