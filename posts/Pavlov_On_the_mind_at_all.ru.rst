@@ -9,12 +9,10 @@
 .. type: text
 -->
 
-.. slides::
+.. images ::
 
    /galleries/Pavlov/Ivan-Pavlov.png
-   /galleries/Pavlov/ivan-Petroviç-Pavlov.jpg
-   /galleries/Pavlov/pavlov-experiment-dog.jpg
-   /galleries/Pavlov/pavlov.jpg
+
 
 Мотив моей лекции — это выполнение одной великой заповеди, завещанной
 классическим миром последующему человечеству. Эта заповедь — истинна, как сама
