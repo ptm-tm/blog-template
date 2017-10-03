@@ -1,4 +1,3 @@
-<!--
 .. title: pyvenv
 .. slug: pyvenv_ru
 .. date: 2016-10-03 10:02:00 UTC
@@ -7,8 +6,6 @@
 .. link: 
 .. description: 
 .. type: text
--->
-
 
 Наверняка, большинство из тех, кто разрабатывает или деплоит Python приложения, использует виртуальные окружения. В частности через virtualenv [1], написанный Ian Bicking.
 
@@ -16,7 +13,6 @@
 Как это работает?
 
 Основное отличие venv в том, что он встроен в интерпретатор и может отрабатывать ещё до загрузки системных модулей. Для этого, при определении базовой директории с библиотеками, используется примерно такой алгоритм:
-
     в директории с интерпретатором или уровнем выше ищется файл с именем pyvenv.cfg;
     если файл найден, в нём ищется ключ home, значение которого и будет базовой директорией;
     в базовой директории идёт поиск системной библиотеки (по спец. маркеру os.py);
@@ -66,7 +62,8 @@ pyenv --upgrade /path/to/new/venv
 Например, можно при инициализации окружения ставить туда distribute, pip и необходимые начальные зависимости из requirements.txt. Наверное, более сложную логику лучше оставить на совести более предназначенных для этого инструментов, типа buildout или make, но первоначальную настройку можно провести и на уровне EnvBuilder, затем уже передав из него управление нужным скриптам.
 
 При создании окружения используется метод create(self, env_dir), в исходном классе [2] он выглядит так:
-
+.. code-block:: python
+    :number-lines:
     def create(self, env_dir):
         env_dir = os.path.abspath(env_dir)
         context = self.ensure_directories(env_dir)
@@ -80,8 +77,8 @@ pyenv --upgrade /path/to/new/venv
 
 В конце вызывается хук post_setup, в который вы можете добавлять свои действия. Видно, что post_setup выполняется только при создании окружения, а при --upgrade он выполняться не будет. Это легко исправить, добавив ещё один хук:
 
-..code ::
-
+.. code-block:: python
+    :number-lines:
     class ImprovedEnvBuilder(venv.EnvBuilder):
     
         def create(self, env_dir):
@@ -106,8 +103,8 @@ pyenv --upgrade /path/to/new/venv
     context.env_exe — путь к бинарнику внтури окружения.
 
 Соответственно, для запуска python скрипта внутри окружения, можно сделать:
-
-..code ::
+.. code-block:: python
+    :number-lines:
 
     import subprocess
     import venv
@@ -126,7 +123,8 @@ pyenv --upgrade /path/to/new/venv
 
 Кроме того, для текстовых файлов выполняется постановка значений. Поддерживаемые из коробки:
 
-..code ::
+.. code-block:: python
+    :number-lines:
 
     __VENV_DIR__
     __VENV_NAME__
@@ -135,7 +133,8 @@ pyenv --upgrade /path/to/new/venv
 
 Пример шаблона запускаемого python скрипта:
 
-..code ::
+.. code-block:: python
+    :number-lines:
 
     #!__VENV_PYTHON__
 
@@ -149,3 +148,7 @@ __VENV_PYTHON__ будет заменено на полный путь к инт
 
 После установки такого скрипта через install_scripts, его можно будет запускать, без необходимости активации окружения через bin/activate.
 ...
+
+http://docs.python.org/3.3/library/venv.html
+http://www.python.org/dev/peps/pep-0405/
+https://github.com/maizy/venv-experiments
