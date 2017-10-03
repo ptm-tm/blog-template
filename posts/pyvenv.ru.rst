@@ -62,8 +62,10 @@ pyenv --upgrade /path/to/new/venv
 Например, можно при инициализации окружения ставить туда distribute, pip и необходимые начальные зависимости из requirements.txt. Наверное, более сложную логику лучше оставить на совести более предназначенных для этого инструментов, типа buildout или make, но первоначальную настройку можно провести и на уровне EnvBuilder, затем уже передав из него управление нужным скриптам.
 
 При создании окружения используется метод create(self, env_dir), в исходном классе [2] он выглядит так:
+
 .. code-block:: python
     :number-lines:
+    
     def create(self, env_dir):
         env_dir = os.path.abspath(env_dir)
         context = self.ensure_directories(env_dir)
@@ -79,6 +81,7 @@ pyenv --upgrade /path/to/new/venv
 
 .. code-block:: python
     :number-lines:
+    
     class ImprovedEnvBuilder(venv.EnvBuilder):
     
         def create(self, env_dir):
@@ -103,6 +106,7 @@ pyenv --upgrade /path/to/new/venv
     context.env_exe — путь к бинарнику внтури окружения.
 
 Соответственно, для запуска python скрипта внутри окружения, можно сделать:
+
 .. code-block:: python
     :number-lines:
 
@@ -150,5 +154,8 @@ __VENV_PYTHON__ будет заменено на полный путь к инт
 ...
 
 http://docs.python.org/3.3/library/venv.html
+
 http://www.python.org/dev/peps/pep-0405/
+
 https://github.com/maizy/venv-experiments
+
