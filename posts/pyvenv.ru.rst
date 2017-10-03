@@ -137,7 +137,7 @@ pyenv --upgrade /path/to/new/venv
 
 Пример шаблона запускаемого python скрипта:
 
-.. code-block:: python
+.. sourcecode:: python
     :number-lines:
 
     #!__VENV_PYTHON__
