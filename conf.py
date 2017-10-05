@@ -155,6 +155,7 @@ NAVIGATION_LINKS = {
 
 # Name of the theme to use.
 THEME = "bootstrap3"
+# WTF?
 # THEME = "libretto"
 
 # Primary color of your theme. This will be used to customize your theme and
