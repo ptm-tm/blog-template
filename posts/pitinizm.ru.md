@@ -1,7 +1,7 @@
 <!--
 .. title: Путинизм в мозгах
 .. slug: ptnhlo
-.. date: 2016-08-24 10:02:00 UTC
+.. date: 2018-02-01 10:02:00 UTC
 .. tags: politics_ru
 .. category: politics_ru
 .. link: 
