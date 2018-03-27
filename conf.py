@@ -1073,6 +1073,9 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # <script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
 # <!-- End of social buttons -->
 # """
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" 
+src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ab9e068b83ec936"></script> 
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
