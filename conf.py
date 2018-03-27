@@ -527,8 +527,8 @@ HIDDEN_AUTHORS = ['Guest']
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: "en",
-    "ru":"ru front"
+    DEFAULT_LANG: "^_^",
+    "ru":"^_^"
 }
 
 # Create per-month archives instead of per-year
@@ -1221,13 +1221,13 @@ UNSLUGIFY_TITLES = True
 # Uncomment and modify to following lines to match your accounts.
 # Images displayed come from the `previewimage` meta tag.
 # You can specify the card type by using the `card` parameter in TWITTER_CARD.
-# TWITTER_CARD = {
-#     # 'use_twitter_cards': True,  # enable Twitter Cards
-#     # 'card': 'summary',          # Card type, you can also use 'summary_large_image',
-#                                   # see https://dev.twitter.com/cards/types
-#     # 'site': '@website',         # twitter nick for the website
-#     # 'creator': '@username',     # Username for the content creator / author.
-# }
+TWITTER_CARD = {
+    'use_twitter_cards': True,  # enable Twitter Cards
+    'card': 'summary',          # Card type, you can also use 'summary_large_image',
+                                # see https://dev.twitter.com/cards/types
+    'site': '@MegaHardLab',     # twitter nick for the website
+    'creator': '@PTM',          # Username for the content creator / author.
+}
 
 # If webassets is installed, bundle JS and CSS into single files to make
 # site loading faster in a HTTP/1.1 environment but is not recommended for
