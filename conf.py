@@ -1060,8 +1060,8 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # long time). Insert anything you want here, or even make it empty (which is
 # the default right now)
 # (translatable)
-# SOCIAL_BUTTONS_CODE = """
-# <!-- Social buttons -->
+SOCIAL_BUTTONS_CODE = """
+<!-- Social buttons -->
 # <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
 # <a class="addthis_button_more">Share</a>
 # <ul><li><a class="addthis_button_facebook"></a>
@@ -1072,11 +1072,11 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # </div>
 # <script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
 # <!-- End of social buttons -->
-# """
+
 <!-- Go to www.addthis.com/dashboard to customize your tools --> 
 <script type="text/javascript" 
 src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ab9e068b83ec936"></script> 
-
+"""
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
 # SHOW_SOURCELINK = True
