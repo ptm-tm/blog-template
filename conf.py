@@ -850,13 +850,13 @@ FAVICONS = (
 )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
-
+INDEX_TEASERS = True
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
 # {link}                        A link to the full post page.
 # {read_more}                   The string “Read more” in the current language.
 # {reading_time}                An estimate of how long it will take to read the post.
+{reading_time}
 # {remaining_reading_time}      An estimate of how long it will take to read the post, sans the teaser.
 # {min_remaining_read}          The string “{remaining_reading_time} min remaining to read” in the current language.
 # {paragraph_count}             The amount of paragraphs in the post.
