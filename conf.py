@@ -856,7 +856,7 @@ INDEX_TEASERS = True
 # {link}                        A link to the full post page.
 # {read_more}                   The string “Read more” in the current language.
 # {reading_time}                An estimate of how long it will take to read the post.
-{reading_time}
+# {reading_time}
 # {remaining_reading_time}      An estimate of how long it will take to read the post, sans the teaser.
 # {min_remaining_read}          The string “{remaining_reading_time} min remaining to read” in the current language.
 # {paragraph_count}             The amount of paragraphs in the post.
@@ -867,7 +867,11 @@ INDEX_TEASERS = True
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
 
 
-INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
+INDEX_READ_MORE_LINK = {
+    DEFAULT_LANG: '<p class="more"><a href="{link}">{read_more}…</a></p>',
+    "ru":'<p class="more"><a href="{link}">{Читать}…</a></p>'
+}
+
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
 FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
 
