@@ -867,10 +867,7 @@ INDEX_TEASERS = True
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
 
 
-INDEX_READ_MORE_LINK = {
-    DEFAULT_LANG: '<p class="more"><a href="{link}">{read_more}…</a></p>',
-    "ru":'<p class="more"><a href="{link}">{Читать}…</a></p>'
-}
+INDEX_READ_MORE_LINK ='<p class="more"><a href="{link}">{read_more}…</a></p>'
 
 # 'Read more...' for the feeds, if FEED_TEASERS is True (translatable)
 FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_read})</p>'
