@@ -1,5 +1,5 @@
 .. title: God-s Judgment on a Wicked Bishop
-.. slug: Robert_Southey_God-s_Judgment_on_a_Wicked_Bishop
+.. slug: Robert_Southey_God-s_Judgment_on_a_Wicked_Bishop_en
 .. date: 2016-09-28 10:02:00 UTC
 .. tags: poetry_en
 .. category: poetry_en
@@ -7,74 +7,43 @@
 .. description: 
 .. type: rst
 
+::
 
     The summer and autumn had been so wet,  
-    
     That in winter the corn was growing yet,  
-    
     'Twas a piteous sight to see all around  
-    
     The grain lie rotting on the ground.  
-    
 
     Every day the starving poor  
-    
     Crowded around Bishop Hatto's door,  
-    
     For he had a plentiful last-year's store,  
-    
     And all the neighbourhood could tell  
-    
     His granaries were furnish'd well.  
-    
 
     At last Bishop Hatto appointed a day  
-    
     To quiet the poor without delay;  
-    
     He bade them to his great Barn repair,  
-    
     And they should have food for the winter there.  
     
-
     Rejoiced such tidings good to hear,  
-    
     The poor folk flock'd from far and near;  
-    
     The great barn was full as it could hold  
-    
     Of women and children, and young and old.  
-    
 
     Then when he saw it could hold no more,  
-    
     Bishop Hatto he made fast the door;  
-    
     And while for mercy on Christ they call,  
-    
     He set fire to the Barn and burnt them all.  
-    
-
 
     "I'faith 'tis an excellent bonfire!" quoth he,  
-    
     "And the country is greatly obliged to me,  
-    
     For ridding it in these times forlorn  
-    
     Of Rats that only consume the corn."  
-    
-
 
     So then to his palace returned he,  
-    
     And he sat down to supper merrily,  
-    
     And he slept that night like an innocent man;  
-    
     But Bishop Hatto never slept again.  
-    
-
 
     In the morning as he enter'd the hall  
     Where his picture hung against the wall,  
