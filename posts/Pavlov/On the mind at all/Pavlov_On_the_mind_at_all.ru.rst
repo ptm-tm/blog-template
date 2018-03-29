@@ -5,7 +5,7 @@
 .. category: politics_ru
 .. link: 
 .. description: Лекция И.П. Павлова
-.. type: text
+.. type: rst
 
 .. image :: /galleries/Pavlov/Ivan-Pavlov.png
 

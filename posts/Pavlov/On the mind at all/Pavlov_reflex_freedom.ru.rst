@@ -5,10 +5,10 @@
 .. category: politics_ru
 .. link: 
 .. description: Лекция И.П. Павлова
-.. type: md
+.. type: rst
 
 
-.. image :: /galleries/Pavlov/pavlov.jpg
+.. image : /galleries/Pavlov/pavlov.jpg
 
 
 Можно, и с правом, принимать, что физиологии при анализе нормальной нервной  
