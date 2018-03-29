@@ -1,4 +1,3 @@
-<!--
 .. title: И.П. Павлов: «Об уме вообще» 
 .. slug: Pavlov_On_the_mind_at_all
 .. date: 2016-09-29 10:02:00 UTC
@@ -7,7 +6,6 @@
 .. link: 
 .. description: Лекция И.П. Павлова
 .. type: text
--->
 
 .. image :: /galleries/Pavlov/Ivan-Pavlov.png
 
