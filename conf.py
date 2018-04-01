@@ -145,7 +145,7 @@ NAVIGATION_LINKS = {
     ),
     "ru": (        
         ("/ru/archive.html", "Ар}{ив"),
-        ("/ru/categories_ru/index.html", "Категории"),
+        ("/ru/категории/index.html", "Категории"),
         ("/ru/tags_ru/index.html", "Метки"),
         ("/ru/authors/index.html", "Авторы"),
         ("/ru/rss_ru.xml", "RSS лента"),
