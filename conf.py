@@ -196,7 +196,7 @@ THEME_COLOR = '#5670d4'
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 POSTS = (
-    ("posts/*.rst", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
+    ("posts/*.rst", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
     ("posts/*.md", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
     ("posts/*.txt", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
     ("posts/*.html", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
@@ -444,7 +444,7 @@ HIDDEN_TAGS = ['mathjax']
 # CATEGORY_PATH = "categories"
 CATEGORY_PATH = {
     DEFAULT_LANG: "categories",
-    "ru" : "categories_ru",
+    "ru" : "категории",
 }
 
 # CATEGORY_PREFIX = "cat_"
