@@ -471,6 +471,13 @@ CATEGORY_PAGES_DESCRIPTIONS = {
         "blogging": "Meta-blog posts about blogging about blogging.",
         "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
     },
+    "ru": {
+        "poetry_ru"     : "Поэзия. Стихи, которые мне нравятся",
+        "politics_ru"   : "Мысли о политике в России и не только",
+        "programming"   : "Программирование (в основном {Python}) и все что связано с IT"
+        
+        
+    },
 }
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
