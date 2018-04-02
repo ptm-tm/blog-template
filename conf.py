@@ -595,7 +595,7 @@ USE_BASE_TAG = False
 # output / TRANSLATION[lang] / RSS_PATH / rss.xml
 RSS_PATH = {
     DEFAULT_LANG: "rss",
-    "ru" : "rss_ru",
+    "ru" : "rss",
 }
 # Slug the Tag URL. Easier for users to type, special characters are
 # often removed or replaced as well.
@@ -906,18 +906,30 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = """
+LICENSE ={
+    DEFAULT_LANG : 
+        """
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License"
+        style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+        Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+        """,
+    "ru":
+        """
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <img alt="Лицензия Creative Commons" style="border-width:0" 
+        src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
+        Сайт «<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">MHL</span>» 
+        созданное автором по имени 
+        <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">[PTM]</span>,
+        публикуется на условиях <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        лицензии Creative Commons «Attribution-ShareAlike» («Атрибуция — На тех же условиях») 4.0 Всемирная</a>.<br />
+        Разрешения, выходящие за рамки данной лицензии, 
+        могут быть доступны по адресу
+        <a xmlns:cc="http://creativecommons.org/ns#" href="ptm-tm@protonmail.com"          
+        rel="cc:morePermissions">ptmtm@protonmail.com</a>.""",    
+}
 
-    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-    <img alt="Лицензия Creative Commons" style="border-width:0" 
-    src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
-    Сайт «<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">MHL</span>» 
-    созданное автором по имени <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">[PTM]</span>,
-    публикуется на условиях <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-    лицензии Creative Commons «Attribution-ShareAlike» («Атрибуция — На тех же условиях») 4.0 Всемирная</a>.<br />
-    Разрешения, выходящие за рамки данной лицензии, 
-    могут быть доступны по адресу
-    <a xmlns:cc="http://creativecommons.org/ns#" href="ptm-tm@protonmail.com" rel="cc:morePermissions">ptm-tm@protonmail.com</a>."""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
 # LICENSE = """
