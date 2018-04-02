@@ -16,6 +16,10 @@ import time
 # ! Option (b) is used for settings that are different in different languages.
 
 
+# надо убрать!!!
+NIKOLA_DEBUG=1
+
+
 # Data about this site
 BLOG_AUTHOR = "[PTM]"  # (translatable)
 BLOG_TITLE = "MegaHardLab"  # (translatable)
