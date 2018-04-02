@@ -91,7 +91,8 @@ DEFAULT_LANG = "en"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    DEFAULT_LANG: "./en",
+#    DEFAULT_LANG: "./en",
+    DEFAULT_LANG: "",
     "ru": "./ru",
     
     # Example for another language:
@@ -197,9 +198,9 @@ THEME_COLOR = '#5670d4'
 #     )
 POSTS = (
     ("posts/*.rst", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
-    ("posts/*.md", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
-    ("posts/*.txt", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
-    ("posts/*.html", {"en": "posts", "ru": "posts_ru"}, "post.tmpl"),
+    ("posts/*.md", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
+    ("posts/*.txt", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
+    ("posts/*.html", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
 )
 PAGES = (
     ("pages/*.rst", {"en": "pages", "ru": "pages_ru"}, "page.tmpl"),
