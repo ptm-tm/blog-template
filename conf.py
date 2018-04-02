@@ -16,8 +16,7 @@ import time
 # ! Option (b) is used for settings that are different in different languages.
 
 
-# надо убрать!!!
-NIKOLA_DEBUG=1
+
 
 
 # Data about this site
@@ -400,7 +399,7 @@ POSTS_SECTIONS_ARE_INDEXES = True
 # TAG_PATH = "categories"
 TAG_PATH = {
     DEFAULT_LANG: "tags",
-    "ru" : "tags_ru",
+    "ru" : "Тэги",
 }
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
@@ -540,7 +539,7 @@ HIDDEN_AUTHORS = ['Guest']
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
     DEFAULT_LANG: "You are welcome, my dear friend!",
-    "ru":"Приветствую тебя, незнакомый путник!"
+    "ru":"Приветствую тебя, незнакомый путник!",
 }
 
 # Create per-month archives instead of per-year
@@ -602,7 +601,7 @@ SLUG_AUTHOR_PATH = True
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("/"),"/en/index.html"]
+REDIRECTIONS = [("/index.html","/en/index.html")]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
