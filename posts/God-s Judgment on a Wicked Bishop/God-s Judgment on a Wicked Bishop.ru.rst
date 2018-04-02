@@ -2,7 +2,7 @@
 .. slug: Robert_Southey_God-s_Judgment_on_a_Wicked_Bishop_ru
 .. date: 2016-09-28 10:02:00 UTC
 .. tags: poetry_ru
-.. category: poetry_ru
+.. category: Литература и поэзия
 .. link: 
 .. description: стихи
 .. type: rst

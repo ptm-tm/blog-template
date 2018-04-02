@@ -2,9 +2,9 @@
 .. slug: Bryusov_Assargadon_ru
 .. date: 2016-08-24 10:02:00 UTC
 .. tags: poetry
-.. category: poetry_ru
+.. category: Литература и поэзия
 .. link: 
-.. description: 
+.. description: стихотворение
 .. type: rst
 
 

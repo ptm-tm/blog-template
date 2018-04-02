@@ -2,9 +2,9 @@
 .. slug: ptnhlo
 .. date: 2018-02-01 10:02:00 UTC
 .. tags: politics_ru
-.. category: politics_ru
+.. category: Политика
 .. link: 
-.. description: 
+.. description: Мысли о путятишне
 .. type: rst
 
 Пост о том как я поговорил с явным запутицем

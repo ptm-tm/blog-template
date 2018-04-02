@@ -2,7 +2,7 @@
 .. slug: Pavlov_On_the_mind_at_all
 .. date: 2016-09-29 10:02:00 UTC
 .. tags: Наука, Политика
-.. category: politics_ru
+.. category: Научные статьи
 .. link: 
 .. description: Лекция И.П. Павлова
 .. type: rst

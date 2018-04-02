@@ -3,9 +3,9 @@
 .. slug: politics
 .. date: 2016-08-14 10:02:00 UTC
 .. tags: politics, succession of authority
-.. category: politics
+.. category: Политика
 .. link: 
-.. description: 
+.. description: Зачем менять власть?
 .. type: text
 .. author: [SSDD]
 -->  
