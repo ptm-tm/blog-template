@@ -24,7 +24,7 @@ BLOG_TITLE = "MegaHardLab"  # (translatable)
 SITE_URL = "http://mhl.netlify.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-BASE_URL = "http://mhl.netlify.com/"
+BASE_URL = "http://mhl.netlify.com/ru/"
 BLOG_EMAIL = "ptm-tm@protonmail.com"
 BLOG_DESCRIPTION = {
     "en":"A blog about everything and nothing.",
