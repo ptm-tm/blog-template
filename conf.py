@@ -601,7 +601,7 @@ SLUG_AUTHOR_PATH = True
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("/index.html","/en/index.html")]
+REDIRECTIONS = [("/index.html","/en/")]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
