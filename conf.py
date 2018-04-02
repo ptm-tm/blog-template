@@ -149,8 +149,8 @@ NAVIGATION_LINKS = {
     ),
     "ru": (        
         ("/ru/archive.html", "Ар}{ив"),
-        ("/ru/категории/index.html", "Категории"),
-        ("/ru/tags_ru/index.html", "Метки"),
+        ("/ru/categories/index.html", "Категории"),
+        ("/ru/tags/index.html", "Метки"),
         ("/ru/authors/index.html", "Авторы"),
         ("/ru/rss_ru.xml", "RSS лента"),
         ("/ru/galleries/index.html", "Galleries"),
@@ -399,7 +399,7 @@ POSTS_SECTIONS_ARE_INDEXES = True
 # TAG_PATH = "categories"
 TAG_PATH = {
     DEFAULT_LANG: "tags",
-    "ru" : "Тэги",
+    "ru" : "tags",
 }
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
@@ -448,7 +448,7 @@ HIDDEN_TAGS = ['mathjax']
 # CATEGORY_PATH = "categories"
 CATEGORY_PATH = {
     DEFAULT_LANG: "categories",
-    "ru" : "категории",
+    "ru" : "categories",
 }
 
 # CATEGORY_PREFIX = "cat_"
