@@ -492,6 +492,15 @@ CATEGORY_PAGES_TITLES = {
         "blogging": "Meta-posts about blogging",
         "open source": "Posts about open source software"
     },
+    "ru": {
+        "Литература и поэзия"   : "Поэзия. Стихи, которые мне нравятся",
+        "Политика"  : "Мысли о политике в России и не только",
+        "Программирование"  : "Программирование (в основном {Python}) и все что связано с IT",
+        "Научные статьи"    :   "Интересные научные статьи",
+        "Разное"    :   "всяко разно"
+        
+        
+    },
 }
 
 # If you do not want to display a category publicly, you can mark it as hidden.
