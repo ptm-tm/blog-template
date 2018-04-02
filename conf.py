@@ -21,7 +21,7 @@ BLOG_AUTHOR = "[PTM]"  # (translatable)
 BLOG_TITLE = "MegaHardLab"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://mhl.netlify.com/ru/"
+SITE_URL = "http://mhl.netlify.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 BASE_URL = "http://mhl.netlify.com/"
@@ -203,10 +203,10 @@ POSTS = (
     ("posts/*.html", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", {"en": "pages", "ru": "pages_ru"}, "page.tmpl"),
-    ("pages/*.md", {"en": "pages", "ru": "pages_ru"}, "page.tmpl"),
-    ("pages/*.txt", {"en": "pages", "ru": "pages_ru"}, "page.tmpl"),
-    ("pages/*.html", {"en": "pages", "ru": "pages_ru"}, "page.tmpl"),
+    ("pages/*.rst", {"en": "pages", "ru": "страницы"}, "page.tmpl"),
+    ("pages/*.md", {"en": "pages", "ru": "страницы"}, "page.tmpl"),
+    ("pages/*.txt", {"en": "pages", "ru": "страницы"}, "page.tmpl"),
+    ("pages/*.html", {"en": "pages", "ru": "страницы"}, "page.tmpl"),
 )
 
 # POSTS = (
@@ -535,8 +535,8 @@ HIDDEN_AUTHORS = ['Guest']
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: "^_^",
-    "ru":"^_^"
+    DEFAULT_LANG: "You are welcome, my dear friend!",
+    "ru":"Приветствую тебя, незнакомый путник!"
 }
 
 # Create per-month archives instead of per-year
@@ -598,7 +598,7 @@ SLUG_AUTHOR_PATH = True
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = []
+REDIRECTIONS = [("/"),"/en/index.html"]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
@@ -838,7 +838,7 @@ IMAGE_THUMBNAIL_SIZE = 400
 # vs
 # xcode
 # This list MAY be incomplete since pygments adds styles every now and then.
-# CODE_COLOR_SCHEME = 'default'
+CODE_COLOR_SCHEME = 'vim'
 
 # If you use 'site-reveal' theme you can select several subthemes
 # THEME_REVEAL_CONFIG_SUBTHEME = 'sky'
@@ -1070,20 +1070,6 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # the default right now)
 # (translatable)
 SOCIAL_BUTTONS_CODE = """
-<!-- Social buttons -->
-<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-<a class="addthis_button_more">Share</a>
-<ul><li><a class="addthis_button_facebook"></a>
-<li><a class="addthis_button_google_plusone_share"></a>
-<li><a class="addthis_button_linkedin"></a>
-<li><a class="addthis_button_twitter"></a>
-</ul>
-</div>
-# <script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-<!-- Go to www.addthis.com/dashboard to customize your tools --> 
-<script type="text/javascript" 
-src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ab9e068b83ec936"></script> 
-<!-- End of social buttons -->
 """
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
@@ -1219,7 +1205,7 @@ UNSLUGIFY_TITLES = True
 # Nikola supports Open Graph Protocol data for enhancing link sharing and
 # discoverability of your site on Facebook, Google+, and other services.
 # Open Graph is enabled by default.
-# USE_OPEN_GRAPH = True
+USE_OPEN_GRAPH = True
 
 # Nikola supports Twitter Card summaries, but they are disabled by default.
 # They make it possible for you to attach media to Tweets that link
