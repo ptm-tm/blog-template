@@ -1,5 +1,5 @@
 .. title: И.П. Павлов: «Рефлекс цели»
-.. slug: Pavlov_Target reflex
+.. slug: Pavlov_Target_reflex
 .. date: 2018-04-2 10:02:00 UTC
 .. tags: Наука, Политика
 .. category: Научные статьи
