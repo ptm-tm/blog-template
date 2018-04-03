@@ -19,15 +19,6 @@
     
    .. |nbsp| unicode:: U+00A0
 
-.. epigraph::
-
-   *«Если бы двери восприятия были чисты, всё
-   предстало бы человеку таким, как оно есть — бесконечным»*
-
-   -- |nbsp| Уильям Блэйк
-
-
-
 .. image :: /galleries/Pavlov/Ivan-Pavlov.png
 
 .. TEASER_END
