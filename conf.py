@@ -161,7 +161,7 @@ NAVIGATION_LINKS = {
 # THEME = "bootstrap3"
 # WTF?
 #THEME = "bootstrap3"
-THEME = "libretto"
+THEME = "bootblog4-jinjia"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
