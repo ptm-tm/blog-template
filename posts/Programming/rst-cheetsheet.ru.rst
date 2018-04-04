@@ -1,6 +1,6 @@
 .. title: Шпаргалка по rst
 .. slug: cheatsheet_rst
-.. date: 2018-04-2 10:02:00 UTC
+.. date: 2018-04-04 10:02:00 UTC
 .. tags: Программирование
 .. category: Программирование
 .. link: 
