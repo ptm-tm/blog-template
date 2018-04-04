@@ -7,6 +7,9 @@
 .. description: Шпаргалка по RestructuredText
 .. type: rst
 
+.. contents::
+
+.. TEASER_END
 
 =====================================================
  The reStructuredText_ Cheat Sheet: Syntax Reminders
