@@ -1,5 +1,5 @@
 .. title: Добро пожаловать
-.. slug: welcome_ru
+.. slug: welcome
 .. date: 2016-08-03 10:02:00 UTC
 .. tags: welcome_ru
 .. category: Разное
