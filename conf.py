@@ -201,16 +201,16 @@ THEME_COLOR = '#5670d4'
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 POSTS = (
-    ("posts/*.rst", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
-    ("posts/*.md", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
-    ("posts/*.txt", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
-    ("posts/*.html", {"en": "posts", "ru": "статьи"}, "post.tmpl"),
+    ("posts/*.rst", {"en": "posts", "ru": "posts"}, "post.tmpl"),
+    ("posts/*.md", {"en": "posts", "ru": "posts"}, "post.tmpl"),
+    ("posts/*.txt", {"en": "posts", "ru": "posts"}, "post.tmpl"),
+    ("posts/*.html", {"en": "posts", "ru": "posts"}, "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", {"en": "pages", "ru": "страницы"}, "page.tmpl"),
-    ("pages/*.md", {"en": "pages", "ru": "страницы"}, "page.tmpl"),
-    ("pages/*.txt", {"en": "pages", "ru": "страницы"}, "page.tmpl"),
-    ("pages/*.html", {"en": "pages", "ru": "страницы"}, "page.tmpl"),
+    ("pages/*.rst", {"en": "pages", "ru": "pages"}, "page.tmpl"),
+    ("pages/*.md", {"en": "pages", "ru": "pages"}, "page.tmpl"),
+    ("pages/*.txt", {"en": "pages", "ru": "pages"}, "page.tmpl"),
+    ("pages/*.html", {"en": "pages", "ru": "pages"}, "page.tmpl"),
 )
 
 # POSTS = (
