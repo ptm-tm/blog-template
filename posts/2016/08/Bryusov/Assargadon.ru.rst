@@ -1,5 +1,5 @@
 .. title: Ассаргадон
-.. slug: Assargadon
+.. slug: Assargadon_ru
 .. date: 24-08-2016 10:02:00 UTC
 .. tags: poetry
 .. category: Литература и поэзия
