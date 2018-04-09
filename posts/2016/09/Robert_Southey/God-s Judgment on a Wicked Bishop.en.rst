@@ -1,5 +1,5 @@
 .. title: God-s Judgment on a Wicked Bishop
-.. slug: Robert_Southey_God-s_Judgment_on_a_Wicked_Bishop_en
+.. slug: God-s_Judgment_on_a_Wicked_Bishop_en
 .. date: 28-09-2016 10:02:00 UTC
 .. tags: poetry_en
 .. category: poetry_en

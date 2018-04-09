@@ -1,5 +1,5 @@
 .. title: Суд божий над епископом
-.. slug: Robert_Southey_God-s_Judgment_on_a_Wicked_Bishop_ru
+.. slug: God-s_Judgment_on_a_Wicked_Bishop_ru
 .. date: 2016-09-28 10:02:00 UTC
 .. tags: poetry_ru
 .. category: Литература и поэзия
