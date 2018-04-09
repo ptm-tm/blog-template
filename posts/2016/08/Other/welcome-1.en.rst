@@ -1,6 +1,6 @@
 .. title: Добро пожаловать
 .. slug: welcome
-.. date: 2016-08-03 10:02:00 UTC
+.. date: 03-08-2016 10:02:00 UTC
 .. tags: welcome
 .. category: Разное
 .. link: 

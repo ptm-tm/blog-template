@@ -1,6 +1,6 @@
 .. title: pyvenv
 .. slug: pyvenv_ru
-.. date: 2016-10-03 10:02:00 UTC
+.. date: 03-10-2016 10:02:00 UTC
 .. tags: python,pyvenv
 .. category: Программирование
 .. link: 
