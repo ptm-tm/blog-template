@@ -7,7 +7,7 @@
 .. description: Лекция И.П. Павлова
 .. type: rst
 
-.. image :: /galleries/Pavlov/Ivan-Pavlov.png
+.. image :: /galleries/Pavlov/Ivan_Petrovitch_Pavlov:Photograph_after_a_photograph_taken_in_1934.jpg
 
 .. contents::
 
