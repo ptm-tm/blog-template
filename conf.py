@@ -721,7 +721,9 @@ FILTERS = {
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-GALLERY_FOLDERS = {"galleries": "galleries"}
+GALLERY_FOLDERS = {"galleries": "",
+                   "galleries":"Pavlov"
+                  }
 # More gallery options:
 THUMBNAIL_SIZE = 180
 # MAX_IMAGE_SIZE = 1280
@@ -854,7 +856,7 @@ IMAGE_THUMBNAIL_SIZE = 400
 # vs
 # xcode
 # This list MAY be incomplete since pygments adds styles every now and then.
-CODE_COLOR_SCHEME = 'vim'
+CODE_COLOR_SCHEME = 'fruity'
 
 # If you use 'site-reveal' theme you can select several subthemes
 # THEME_REVEAL_CONFIG_SUBTHEME = 'sky'
@@ -870,7 +872,7 @@ CODE_COLOR_SCHEME = 'vim'
 # <link rel="name" href="file" sizes="size"/>
 FAVICONS = (
 #     ("icon", "/favicon.ico", "16x16"),
-    ("icon", "./images/agp.png", "128x128"),
+    ("icon", "/images/agp.png", "128x128"),
 )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
