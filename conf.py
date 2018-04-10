@@ -722,7 +722,7 @@ FILTERS = {
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
 GALLERY_FOLDERS = {"galleries": "galleries",
-                   "galleries/Pavlov":"galleries"
+                   "galleries/Pavlov":"Pavlov"
                   }
 # More gallery options:
 THUMBNAIL_SIZE = 180
