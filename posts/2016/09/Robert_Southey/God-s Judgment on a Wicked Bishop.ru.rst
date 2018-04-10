@@ -7,6 +7,10 @@
 .. description: стихи
 .. type: rst
 
+.. image:: /images/post_images/Robert_Southey/Nuremberg_chronicles_-_Hatto,_Archbishop_of_Mainz_(CLXXXIIv).jpg
+
+.. TEASER_END
+
 ::
 
     Были и лето и осень дождливы;  
