@@ -24,9 +24,13 @@
 
 Всё очень просто, нужно вызвать через ключ -m модуль venv, либо использовать встроенный скрипт pyvenv:
 
+.. code-block:: 
+
 pyenv /path/to/new/venv
 
 Скрипт создаст указанную директорию, вместе со всеми родительскими директориями, если потребуется, и построит виртуальное окружение. Это можно делать и в Windows, только вызов будет чуть более многословным:
+
+.. code-block:: 
 
 c:Python33python -m venv /path/to/new/venv
 
@@ -39,9 +43,11 @@ c:Python33python -m venv /path/to/new/venv
 
 Можно использовать старый добрый метод активации через bin/activate (Scripts/activate в windows):
 
-cd /path/to/new/venv
-. bin/activate
-python3 some_script.py
+.. code-block:: 
+
+    cd /path/to/new/venv
+    . bin/activate
+    python3 some_script.py
 
 А можно и не использовать, достаточно лишь вызвать интерпретатор из окружения и всё сработает автоматически:
 
