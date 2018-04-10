@@ -7,7 +7,7 @@
 .. description: 
 .. type: rst
 
-.. image:: Nuremberg_chronicles_-_Hatto,_Archbishop_of_Mainz_(CLXXXIIv).jpg
+.. image:: /images/post_images/Robert_Southey/Nuremberg_chronicles_-_Hatto,_Archbishop_of_Mainz_(CLXXXIIv).jpg
 
 .. TEASER_END
 
