@@ -7,6 +7,10 @@
 .. description: 
 .. type: rst
 
+.. image:: Nuremberg_chronicles_-_Hatto,_Archbishop_of_Mainz_(CLXXXIIv).jpg
+
+.. TEASER_END
+
 ::
 
     The summer and autumn had been so wet,  
