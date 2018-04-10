@@ -721,7 +721,7 @@ FILTERS = {
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-GALLERY_FOLDERS = {"galleries/galleries": "galleries"}
+GALLERY_FOLDERS = {"galleries": "galleries"}
 
 # More gallery options:
 THUMBNAIL_SIZE = 180
