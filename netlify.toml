@@ -5,4 +5,4 @@
 # This is the directory that you are publishing from (relative to root of your repo)
   publish = "output/"
   command = "nikola theme -i bootblog"
-  command = "nikola build"
+ # command = "nikola build"
