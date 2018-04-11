@@ -3,6 +3,6 @@
 #  base    = "project/"
   # NOTE: This is where we will look for package.json/.nvmrc/etc, not root.
 # This is the directory that you are publishing from (relative to root of your repo)
-  publish = "output/"
-  command = "blogtxt"
- # command = "nikola build"
+    publish = "output/"
+    #command = "blogtxt"
+    command = "nikola build"
