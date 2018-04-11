@@ -161,7 +161,7 @@ NAVIGATION_LINKS = {
 # THEME = "bootstrap3"
 # WTF?
 #THEME = "bootstrap3"
-THEME = "bootblog"
+THEME = "bn"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -1271,7 +1271,7 @@ TWITTER_CARD = {
 # Add the absolute paths to directories containing themes to use them.
 # For example, the `v7` directory of your clone of the Nikola themes
 # repository.
-EXTRA_THEMES_DIRS = ['v8']
+EXTRA_THEMES_DIRS = ['v7']
 
 # List of regular expressions, links matching them will always be considered
 # valid by "nikola check -l"
