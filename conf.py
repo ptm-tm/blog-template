@@ -158,7 +158,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bnw"
+THEME = "bootstrap3-gradients"
 #THEME = "bootblog-jinjia"
 
 # Primary color of your theme. This will be used to customize your theme and
