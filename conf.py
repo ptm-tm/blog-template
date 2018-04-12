@@ -1269,7 +1269,8 @@ TWITTER_CARD = {
 # Add the absolute paths to directories containing themes to use them.
 # For example, the `v7` directory of your clone of the Nikola themes
 # repository.
-EXTRA_THEMES_DIRS = ['v7','v8','Themes/v7','Themes/v8']
+#EXTRA_THEMES_DIRS = ['v7','v8','Themes/v7','Themes/v8']
+EXTRA_THEMES_DIRS = ['v8','Themes/v8']
 
 # List of regular expressions, links matching them will always be considered
 # valid by "nikola check -l"
