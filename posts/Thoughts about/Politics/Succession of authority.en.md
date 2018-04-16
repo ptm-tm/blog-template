@@ -1,4 +1,3 @@
-<!--
 .. title: Succession of authority
 .. slug: politics
 .. date: 2016-08-14 10:02:00 UTC
@@ -8,7 +7,7 @@
 .. description: Зачем менять власть?
 .. type: text
 .. author: [SSDD]
--->  
+
 
 Немного о том, почему власть надо менять.  
 

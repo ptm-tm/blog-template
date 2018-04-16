@@ -19,7 +19,7 @@
 
 .. |nbsp| unicode:: U+00A0
 
-.. image :: /galleries/Pavlov/Pavlov_in_RAN.jpg
+.. thumbnail:: /galleries/Pavlov/Pavlov_in_RAN.jpg
 
 .. contents::
 
