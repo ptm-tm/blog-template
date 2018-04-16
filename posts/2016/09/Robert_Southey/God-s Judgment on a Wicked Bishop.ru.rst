@@ -6,10 +6,11 @@
 .. link: 
 .. description: стихи
 .. type: rst
+.. previewimage: /images/post_images/2016/09/Robert_Southey/Nuremberg_chronicles_Hatto_Archbishop_of_Mainz.jpg
 
 .. image:: /images/post_images/2016/09/Robert_Southey/Nuremberg_chronicles_Hatto_Archbishop_of_Mainz.jpg
 
-.. previewimage:: /images/post_images/2016/09/Robert_Southey/Nuremberg_chronicles_Hatto_Archbishop_of_Mainz.jpg
+
 
 .. TEASER_END
 
