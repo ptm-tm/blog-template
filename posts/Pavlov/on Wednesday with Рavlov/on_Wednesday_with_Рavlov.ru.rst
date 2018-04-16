@@ -37,19 +37,23 @@
 
 Кованов В.В., Призвание, М., «Политиздат», 1973 г., с. 127-129.
 
-.. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/5-04-1933.jpg
 
-.. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/12-04-1933.jpg
-
-.. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/27-09-1933.jpg
-
-.. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/14-03-1934.jpg
-
-.. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/06-06-1934.jpg
-
-.. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/19-12-1934.jpg
-
-.. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/09-09-1935.jpg
+.. image:: /images/post_images/Pavlov/on_Wednesday_with_Рavlov/5-04-1933.jpg
 
 
+.. image:: /images/post_images/Pavlov/on_Wednesday_with_Рavlov/12-04-1933.jpg
 
+
+.. image:: /images/post_images/Pavlov/on_Wednesday_with_Рavlov/27-09-1933.jpg
+
+
+.. image:: /images/post_images/Pavlov/on_Wednesday_with_Рavlov/14-03-1934.jpg
+
+
+.. image:: /images/post_images/Pavlov/on_Wednesday_with_Рavlov/06-06-1934.jpg
+
+
+.. image:: /images/post_images/Pavlov/on_Wednesday_with_Рavlov/19-12-1934.jpg
+
+
+.. image:: /images/post_images/Pavlov/on_Wednesday_with_Рavlov/09-09-1935.jpg
