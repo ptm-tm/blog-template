@@ -6,6 +6,7 @@
 .. link: 
 .. description: Лекция И.П. Павлова
 .. type: rst
+.. previewimage: /galleries/Pavlov/Ivan_Pavlov.png
 
 .. thumbnail:: /galleries/Pavlov/Ivan_Pavlov.png
 
