@@ -6,9 +6,9 @@
 .. link: 
 .. description: Выдержки из стенограмм бесед И.П. Павлова с сотрудниками и прикомандированными стажерами по средам и пятницам
 .. type: rst
-.. previewimage: /galleries/Pavlov/Ivan_Pavlov.png
+.. previewimage: /images/post_images/Pavlov/Ivan_Pavlov.png
 
-.. thumbnail:: /galleries/Pavlov/Ivan_Pavlov.png
+.. thumbnail:: /images/post_images/Pavlov/Ivan_Pavlov.png
 
 
 Беседы И.П. Павлова с сотрудниками и прикомандированными стажерами по средам и пятницам постепенно переросли в знаменитые «павловские среды», часть которых, начиная с 1929 г., была записана в виде протоколов. Позднее фрагменты этих протоколов были изданы.
@@ -38,11 +38,17 @@
 Кованов В.В., Призвание, М., «Политиздат», 1973 г., с. 127-129.
 
 .. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/5-04-1933.jpg
+
 .. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/12-04-1933.jpg
+
 .. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/27-09-1933.jpg
+
 .. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/14-03-1934.jpg
+
 .. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/06-06-1934.jpg
+
 .. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/19-12-1934.jpg
+
 .. image:: /images/post_images/Pavlov/on_Wednesday_with_Pavlov/09-09-1935.jpg
 
 

@@ -6,7 +6,7 @@
 .. link: 
 .. description: Лекция И.П. Павлова
 .. type: rst
-
+.. previewimage: /images/post_images/Pavlov/Pavlov_in_RAN.jpg
 
 
 .. epigraph::
@@ -19,7 +19,7 @@
 
 .. |nbsp| unicode:: U+00A0
 
-.. thumbnail:: /galleries/Pavlov/Pavlov_in_RAN.jpg
+.. thumbnail:: /images/post_images/Pavlov/Pavlov_in_RAN.jpg
 
 .. contents::
 

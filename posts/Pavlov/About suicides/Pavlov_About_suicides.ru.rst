@@ -6,9 +6,9 @@
 .. link: 
 .. description: Лекция И.П. Павлова
 .. type: rst
-.. previewimage: /galleries/Pavlov/Ivan_Pavlov.png
+.. previewimage: /images/post_images/Pavlov/Ivan_Pavlov.png
 
-.. thumbnail:: /galleries/Pavlov/Ivan_Pavlov.png
+.. thumbnail:: /images/post_images/Pavlov/Ivan_Pavlov.png
 
 
 Первую лекцию я посвящаю обыкновенно предмету, далекому от моей специальности, по обычаю, принятому на Западе и вполне оправданному.
