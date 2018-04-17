@@ -869,7 +869,7 @@ CODE_COLOR_SCHEME = 'fruity'
 # <link rel="name" href="file" sizes="size"/>
 FAVICONS = (
 #     ("icon", "/favicon.ico", "16x16"),
-    ("icon", "/site_images/http_megahardlab.org.gif", "66x66"),
+    ("icon", "images/site_images/megahardlab.png", "66x66"),
 )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.

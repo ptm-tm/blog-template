@@ -6,7 +6,7 @@
 .. link: 
 .. description: Выдержки из стенограмм бесед И.П. Павлова с сотрудниками и прикомандированными стажерами по средам и пятницам
 .. type: rst
-.. previewimage: /images/post_images/Pavlov/Ivan_Pavlov.png
+.. previewimage:  /images/post_images/Pavlov/Ivan_Pavlov.png
 
 .. thumbnail:: /images/post_images/Pavlov/Ivan_Pavlov.png
 
