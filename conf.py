@@ -152,7 +152,7 @@ NAVIGATION_LINKS = {
         ("/ru/categories/index.html", "Категории"),
         ("/ru/tags/index.html", "Метки"),
         ("/ru/authors/index.html", "Авторы"),
-        ("/ru/rss_ru.xml", "RSS лента"),
+        ("/ru/rss.xml", "RSS лента"),
         ("/ru/galleries/index.html", "Galleries"),
     ),
 }
