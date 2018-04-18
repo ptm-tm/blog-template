@@ -20,6 +20,7 @@ Pillow>=2.4.0
 pygal>=2.0.0
 Pygments>=1.6
 pyphen>=0.9.1
+PyHyphen>
 PyRSS2Gen>=1.1
 python-dateutil>=2.4.0
 PyYAML==3.12
