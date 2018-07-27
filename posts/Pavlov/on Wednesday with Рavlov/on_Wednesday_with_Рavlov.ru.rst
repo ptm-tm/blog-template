@@ -1,5 +1,5 @@
 .. title: Павловские среды 
-.. slug: on_Wednesday_with_Рavlov
+.. slug: on_wednesday_with_pavlov
 .. date: 2018-04-16 10:02:00 UTC
 .. tags: Наука, Политика
 .. category: Научные статьи
