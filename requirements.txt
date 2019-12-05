@@ -10,7 +10,6 @@ Jinja2>=2.7.2
 logbook>=0.7.0
 lxml>=3.3.5
 mako>=1.0.0
-Markdown>=2.4.0
 Markdown<3.0.0
 micawber>=0.3.0
 natsort>=3.5.2
